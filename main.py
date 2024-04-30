@@ -5,6 +5,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.ensemble import RandomForestClassifier
 import os
 
+print(pd.__version__)
+
 #Function to pull path from OS
 def get_file_path(filename):
     base_dir = os.path.dirname(os.path.abspath(__file__))
